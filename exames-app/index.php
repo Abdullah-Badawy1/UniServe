@@ -10,7 +10,6 @@
 	<head>
 		<meta charset="utf-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	    <meta name="keywords" content="iamrohitsuthar,Iamrohitsuthar,i am rohit suthar,Hi i am rohit suthar,Hi iamrohitsuthar,i am Rohit Suthar,I am RohitSuthar,mrrohitsuthar,rohit suthar,RohitSuthar,Rohit Suthar,rohitsuthar website,rohit suthar website,programmer,amravati,rohitsuthar,rohit suthar blog,Rohit Suthar,Rohit,Suthar,Rohit Karma,Suthar Rohit,iamrohitsuthar blog,iamrohitsuthar twitter,iamrohitsuthar instagram,iamrohitsuthar stackoverflow,iamrohitsuthar github,iamrohitsuthar linkedin,iamrohitsuthar website">
 	    <title>Quizller</title>
 	    <link rel="icon" type="image/png" href="admin/assets/img/favicon.png">
 		<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -31,15 +30,12 @@
 	<body>
 		<!-- Header -->
 		<header class="header1">
-			<!-- Header desktop -->
 			<div class="container-menu-header">
 				<div class="wrap_header">
-					<!-- Logo -->
 					<a href="index.php" class="logo">
 						<img src="images/icons/logo.png" alt="IMG-LOGO">
 					</a>
 
-					<!-- Header Icon -->
 
 				</div>
 			</div>
@@ -68,7 +64,6 @@
 						<div class="wrap-input100 validate-input">
 							<select class="input100" id="class_id" name="class_id" required>
 								<?php
-									// Assuming you have a database connection established
 
 									$query = "SELECT 
 										classes.id AS id,
@@ -177,7 +172,7 @@
 							}
 							else if(response === 'TEST_IS_ALREADY_DONE')
 							{
-								alert("Test is already done for this user");
+								alert("");
 							}
 							else
 							{
