@@ -11,14 +11,6 @@
     width: 80%;
     margin: 0 auto;
 }
-.w3l-info p {
-    font-size: 20px;
-    color: #fff;
-    line-height: 28px;
-    margin: 20px 0;
-    letter-spacing: 1px;
-    text-transform: capitalize;
-}
 
 @media (max-width:1440px) {
     .flexslider-info {
