@@ -14,12 +14,6 @@ if(isset($_SESSION["user_id"]))
    Admin Panel - Login
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
-<!DOCTYPE html>
-  <!--     Fonts and icons     -->
-  <!--     Fonts and icons     -->
-  <!--     Fonts and icons     -->
-  <!--     Fonts and icons     -->
-  <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <!-- CSS Files -->
@@ -75,8 +69,13 @@ if(isset($_SESSION["user_id"]))
                       </div>
                     </div>
                   </div>
-                   <div class="row">
+p                   <div class="row">
                     <div class="col-md-12">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/css/main.css" rel="stylesheet" />
+  <link href="assets/css/now-ui-dashboard.css?v=1.1.0" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
                       <div class="form-group">
                         <label>Password</label>
                         <input type="password" id="password" name="password" class="form-control" placeholder="Your Password" >
